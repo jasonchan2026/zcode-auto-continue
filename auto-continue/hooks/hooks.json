@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/stop_continue.py\" || true",
+            "timeoutMs": 30000,
+            "statusMessage": "自动续接检查中…"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "zcode-auto-continue",
+  "plugins": [
+    {
+      "name": "auto-continue",
+      "source": "./auto-continue",
+      "version": "0.1.0",
+      "description": "对话回合因模型繁忙等临时错误中断时自动续接：Stop 钩子检测繁忙错误、空响应与代码块截断，并请求继续。",
+      "displayName": "Auto Continue",
+      "displayName_i18n": {
+        "zh-CN": "自动续接"
+      },
+      "description_i18n": {
+        "zh-CN": "对话回合因模型繁忙等临时错误中断时自动续接：Stop 钩子检测繁忙错误、空响应与代码块截断，并请求继续。"
+      },
+      "category": "productivity"
+    }
+  ]
+}
